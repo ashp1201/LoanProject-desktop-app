@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightyellow;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loanproject.banksController">
+   <children>
+      <Label layoutX="121.0" layoutY="84.0" text="State Bank of india ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="130.0" text="Punjab National bank">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="183.0" text="Bank of baroda">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="222.0" text="Axis Bank">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="267.0" text="Other bank">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="button_1" layoutX="414.0" layoutY="85.0" mnemonicParsing="false" text="Click here!" textFill="#4f0fe7" />
+      <Button fx:id="button_2" layoutX="414.0" layoutY="131.0" mnemonicParsing="false" text="CLick here!" textFill="#0c09ea" />
+      <Button fx:id="button_3" layoutX="414.0" layoutY="184.0" mnemonicParsing="false" text="Click here!" textFill="#2408f7" />
+      <Button fx:id="button_4" layoutX="414.0" layoutY="223.0" mnemonicParsing="false" text="Clich here!" textFill="#430bfc" />
+      <Button fx:id="button_5" layoutX="414.0" layoutY="268.0" mnemonicParsing="false" text="Click here!" textFill="#0703f4" />
+      <Label layoutX="88.0" layoutY="329.0" text="NOTE: After clicking (click here!) you will rediect to calculator to calculate Emi" textFill="#ea0909" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="27.0" prefHeight="47.0" prefWidth="480.0" style="-fx-background-color: red;" text="Bank Emi Calculator" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_home" layoutX="-3.0" layoutY="1.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: lightyellow;" text="Back " />
+   </children>
+</AnchorPane>

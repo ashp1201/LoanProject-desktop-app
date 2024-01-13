@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loanproject.CalculatorController">
+   <children>
+      <TextField fx:id="tfLoanAmount" layoutX="343.0" layoutY="73.0" />
+      <TextField fx:id="tfAnnualInterestRate" layoutX="343.0" layoutY="111.0" />
+      <TextField fx:id="tfNumberOfYears" layoutX="343.0" layoutY="151.0" />
+      <TextField fx:id="tfMonthlyPayment" editable="false" layoutX="268.0" layoutY="243.0" style="-fx-background-color: lightblue;" />
+      <TextField fx:id="tfTotalPayment" editable="false" layoutX="268.0" layoutY="297.0" style="-fx-background-color: lightblue;" />
+      <Button fx:id="btCalculate" alignment="CENTER" layoutX="250.0" layoutY="200.0" mnemonicParsing="false" onAction="#handle" text="Calculate" />
+      <Label layoutX="128.0" layoutY="73.0" prefHeight="26.0" prefWidth="129.0" text="Loan Amount:" />
+      <Label layoutX="119.0" layoutY="115.0" text="Annual Interest Rate:" />
+      <Label layoutX="128.0" layoutY="146.0" text="Number of Years:" />
+      <Label layoutX="135.0" layoutY="247.0" text="Monthly Payment:" />
+      <Label layoutX="135.0" layoutY="301.0" text="Total Payment:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="15.0" layoutX="95.0" layoutY="26.0" prefHeight="30.0" prefWidth="411.0" style="-fx-background-color: CD3333;" text="EMI   CALCULATOR">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_home" layoutX="6.0" layoutY="1.0" mnemonicParsing="false" text="Back " />
+   </children>
+</AnchorPane>

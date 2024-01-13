@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loanproject.LoginController">
+   <children>
+      <ToolBar layoutX="-265.0" layoutY="-79.0" prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button mnemonicParsing="false" text="Button" />
+        </items>
+      </ToolBar>
+      <Label fx:id="label_welcome" layoutX="86.0" layoutY="70.0" prefHeight="53.0" prefWidth="364.0" text="WELCOME TO  LOAN  ADVISORY ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_info" layoutX="42.0" layoutY="141.0" text="OUR VISION IS To become one of the finest independent financial service company in the industry!" />
+      <Label fx:id="label_advise" layoutX="46.0" layoutY="170.0" prefHeight="18.0" prefWidth="516.0" text="WE ADVISE ABOUT EVERY LOAN WITH PROPER GUIDANCE " />
+      <Button fx:id="button_logout" layoutX="532.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: RED;" text="LOG OUT" />
+   </children>
+</AnchorPane>

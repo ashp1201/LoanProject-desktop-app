@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="383.0" prefWidth="303.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loanproject.aboutusController">
+   <children>
+      <ImageView fitHeight="189.0" fitWidth="742.0" opacity="0.49" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@aboutus.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="122.0" prefHeight="69.0" prefWidth="263.0" text="ABOUT US" textFill="#1e1d1d">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="192.0" text="Welcome To Online loan Advisor" underline="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="251.0" prefHeight="18.0" prefWidth="514.0" text="Online loan Advisor is a  Loan Platform. Here we will provide you only interesting content, which" />
+      <Label layoutX="25.0" layoutY="278.0" text="you will like very much. We're dedicated to providing you the best of Loan advise with low interest . " />
+      <Label layoutX="31.0" layoutY="296.0" />
+      <Label layoutX="25.0" layoutY="314.0" text="Please give your support and love." />
+      <Label layoutX="226.0" layoutY="341.0" text="Thanks For Visiting ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_home" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

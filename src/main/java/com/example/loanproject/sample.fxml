@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loanproject.Controller">
+   <children>
+      <AnchorPane prefHeight="322.0" prefWidth="250.0" style="-fx-background-color: #00FFFF;">
+         <Label layoutX="62.0" layoutY="233.0" text="Welcome">
+            <font>
+               <Font size="24.0"/>
+            </font>
+         </Label>
+         <Label layoutX="75.0" layoutY="279.0" text="To Our">
+            <font>
+               <Font size="24.0"/>
+            </font>
+         </Label>
+         <Label layoutX="44.0" layoutY="315.0" text="loan services">
+            <font>
+               <Font size="24.0"/>
+            </font>
+         </Label>
+         <ImageView fitHeight="233.0" fitWidth="250.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@loansign.png"/>
+            </image>
+         </ImageView>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="402.0">
+         <children>
+            <Label layoutX="36.0" layoutY="153.0" />
+            <Label layoutX="36.0" layoutY="139.0" text="Username ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="41.0" layoutY="200.0" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="136.0" layoutY="140.0" />
+            <TextField fx:id="tf_password" layoutX="137.0" layoutY="201.0" />
+            <Button fx:id="button_login" layoutX="122.0" layoutY="253.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="75.0" style="-fx-background-color: YELLOW;" text="LOG IN" />
+            <Label layoutX="61.0" layoutY="302.0" text="If not register?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_signup" layoutX="185.0" layoutY="302.0" mnemonicParsing="false" text="Sign Up" textFill="#0c3aef" underline="true" />
+            <ImageView fitHeight="57.0" fitWidth="58.0" layoutX="311.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AA.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="121.0" fitWidth="374.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@TITLE.png" />
+               </image></ImageView>
+         </children></AnchorPane>
+   </children>
+</HBox>

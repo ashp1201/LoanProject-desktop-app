@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="571.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loanproject.PerController">
+   <children>
+      <ImageView fitHeight="337.0" fitWidth="436.0" layoutX="275.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@personal-loan-interest-rate.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="221.0" layoutY="26.0" text="PERSONAL LOAN">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="72.0" text="1.Eligibilty:">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="66.0" layoutY="98.0" style="-fx-background-color: white;" text="Age : 21 and 60 years">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="133.0" style="-fx-background-color: white;" text="Nationality: Indian">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="165.0" style="-fx-background-color: white;" text="Salary :  Above ₹20,000">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="198.0" style="-fx-background-color: white;" text="Credit Score : More than 300">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="416.0" text="3:Document Required :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="471.0" style="-fx-background-color: white;" text="Identity proof: copy of passport/voter ID card/driving license/Aadhaar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="442.0" style="-fx-background-color: white;" text="Address proof : copy of passport/voter ID card/driving license/Aadhaar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="526.0" style="-fx-background-color: White;" text="Bank statement of previous 3 months (Passbook of previous 6 months)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="499.0" style="-fx-background-color: white;" text="Two latest salary slip">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="239.0" text="2:Charges">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="342.0" prefHeight="20.0" prefWidth="202.0" style="-fx-background-color: WHite;" text="Stamp Duty:  As per applicable ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="312.0" style="-fx-background-color: white;" text="Processing fee :  Up to Rs 4999/-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="355.0" />
+      <Label layoutX="56.0" layoutY="277.0" style="-fx-background-color: white;" text="Interest Rate: 11 to 21%">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="141.0" layoutY="363.0" prefHeight="20.0" prefWidth="108.0" style="-fx-background-color: white;" text="laws of the state">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_home" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: lightblue;" text="Back" textFill="#181818">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
